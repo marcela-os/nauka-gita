@@ -3,7 +3,7 @@
  $font-header: 'Signika', sans-serif;
  $font-text: 'Inconsolata', monospace;
 
- /* Global */
+ /* Splash */
 
  .title {
    font-family: $font-header;
@@ -13,3 +13,11 @@
    font-family: $font-text;
    font-size: 12px;
  }
+
+/* Contents */
+
+.contents {
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+}
